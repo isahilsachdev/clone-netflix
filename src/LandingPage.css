@@ -1,0 +1,44 @@
+* {
+  color: white;
+  /* background-color: #111; */
+  line-height: 53.76px;
+  font-weight: 250;
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helveti;
+}
+body {
+  background-color: #111;
+  width: 100%;
+}
+/* .Landing__page {
+  height: fit-content;
+} */
+.landing__content {
+  font-size: 20px;
+  text-align: center;
+  height: 300px;
+  width: 700px;
+  margin: 150px auto;
+}
+.image__box img {
+  width: 150px;
+  margin: 20px;
+  object-fit: cover;
+  max-height: 150px;
+  padding: 5px;
+}
+.image__box img:hover {
+  border: 1px solid #fff;
+}
+@media only screen and (max-width: 420px) {
+  .image__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing__content {
+    width: 100%;
+    margin: 100px auto;
+  }
+}
