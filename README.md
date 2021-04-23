@@ -43,4 +43,4 @@ For collection of shows and movies i have used netflix api and to display traile
 
 It consist two pages , the landing page and the home page.
 
-<img src="./1.png" />
+<img src=".public/1.png" />
